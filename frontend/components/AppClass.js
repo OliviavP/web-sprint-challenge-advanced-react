@@ -49,6 +49,13 @@ export default class AppClass extends React.Component {
 
   onSubmit = (evt) => {
     // Use a POST request to send a payload to the server.
+     evt.preventDefault()
+    this.
+  }
+  constructor() {
+    super()
+    this.state = {}
+  }
   }
 
   render() {
